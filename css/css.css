@@ -1,0 +1,248 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /*Center slide text vertically*/
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*-webkit-box-pack: center;*/
+    /*-ms-flex-pack: center;*/
+    /*-webkit-justify-content: center;*/
+    /*justify-content: center;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*-webkit-align-items: center;*/
+    /*align-items: center;*/
+}
+.logo{
+    width: 18%;
+    height: 12%;
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: 100;
+}
+.bg-img{
+    background-image: url('../img/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.turn-page{
+    background-image: url('../img/book.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+#page{
+    background-image: url('../img/book.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    width:99%;
+    height: 93%;
+    left: 2%;
+    top: 5%;
+}
+.page1{
+    background-image: url('../img/page1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    z-index: 100;
+}
+.page2{
+    background-image: url('../img/page2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+}
+.btn1{
+    position: absolute;
+    width: 40%;
+    height: 23%;
+    top: 80%;
+    left: 35%;
+    z-index: 100;
+}
+.people{
+    background-image: url('../img/people.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    width: 15%;
+    height: 13%;
+    top: 66%;
+    left: 31%;
+    z-index: 100;
+    transform-origin:50% 100%;
+    -ms-transform-origin:50% 100%; 	/* IE 9 */
+    -moz-transform-origin:50% 100%; 	/* Firefox */
+    -webkit-transform-origin:50% 100%; /* Safari 和 Chrome */
+    -o-transform-origin:50% 100%;
+    /*-moz-animation-iteration-count:infinite;*/
+    /*-o-animation-iteration-count:infinite;*/
+    /*animation-iteration-count:infinite;*/
+    /*-webkit-animation-iteration-count:infinite;*/
+    animation: myfirst2 5s infinite;
+    -moz-animation: myfirst2 5s infinite;	/* Firefox */
+    -webkit-animation: myfirst2 5s infinite;	/* Safari 和 Chrome */
+    -o-animation: myfirst2 5s infinite;	/* Opera */
+}
+
+@keyframes myfirst2
+{
+    25% {
+        transform:rotate(6deg);
+        -ms-transform:rotate(6deg); 	/* IE 9 */
+        -moz-transform:rotate(6deg); 	/* Firefox */
+        -webkit-transform:rotate(6deg); /* Safari 和 Chrome */
+        -o-transform:rotate(6deg); 	/* Opera */
+    }
+    75%{
+        transform:rotate(-6deg);
+        -ms-transform:rotate(-6deg); 	/* IE 9 */
+        -moz-transform:rotate(-6deg); 	/* Firefox */
+        -webkit-transform:rotate(-6deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-6deg); 	/* Opera */
+    }
+}
+
+@-moz-keyframes myfirst2 /* Firefox */
+{
+    25% {
+        transform:rotate(6deg);
+        -ms-transform:rotate(6deg); 	/* IE 9 */
+        -moz-transform:rotate(6deg); 	/* Firefox */
+        -webkit-transform:rotate(6deg); /* Safari 和 Chrome */
+        -o-transform:rotate(6deg); 	/* Opera */
+    }
+    75%{
+        transform:rotate(-6deg);
+        -ms-transform:rotate(-6deg); 	/* IE 9 */
+        -moz-transform:rotate(-6deg); 	/* Firefox */
+        -webkit-transform:rotate(-6deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-6deg); 	/* Opera */
+    }
+}
+
+@-webkit-keyframes myfirst2 /* Safari 和 Chrome */
+{
+    25% {
+        transform:rotate(6deg);
+        -ms-transform:rotate(6deg); 	/* IE 9 */
+        -moz-transform:rotate(6deg); 	/* Firefox */
+        -webkit-transform:rotate(6deg); /* Safari 和 Chrome */
+        -o-transform:rotate(6deg); 	/* Opera */
+    }
+    75%{
+        transform:rotate(-6deg);
+        -ms-transform:rotate(-6deg); 	/* IE 9 */
+        -moz-transform:rotate(-6deg); 	/* Firefox */
+        -webkit-transform:rotate(-6deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-6deg); 	/* Opera */
+    }
+}
+
+@-o-keyframes myfirst2 /* Opera */
+{
+    25% {
+        transform:rotate(6deg);
+        -ms-transform:rotate(6deg); 	/* IE 9 */
+        -moz-transform:rotate(6deg); 	/* Firefox */
+        -webkit-transform:rotate(6deg); /* Safari 和 Chrome */
+        -o-transform:rotate(6deg); 	/* Opera */
+    }
+    75%{
+        transform:rotate(-6deg);
+        -ms-transform:rotate(-6deg); 	/* IE 9 */
+        -moz-transform:rotate(-6deg); 	/* Firefox */
+        -webkit-transform:rotate(-6deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-6deg); 	/* Opera */
+    }
+}
+.title{
+    background-image: url('../img/title.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    width: 66%;
+    height: 21%;
+    top: 9%;
+    left: 18%;
+    z-index: 100;
+}
+.light{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: -2%;
+    animation: myfirst 3s infinite;
+    -moz-animation: myfirst 3s infinite;	/* Firefox */
+    -webkit-animation: myfirst 3s infinite;	/* Safari 和 Chrome */
+    -o-animation: myfirst 3s infinite;	/* Opera */
+    overflow: hidden;
+}
+
+@keyframes myfirst
+{
+    50% {height: 0;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    50% {height: 0;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+    50% {height: 0;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    50% {height: 0;}
+}
+.menu-box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 7%;
+    left: 3%;
+}
+.menu{
+    margin-left: 10%;
+    /*margin-top: 2.5%;*/
+    width: 73%;
+    height: 15%;
+}
+.lin1{
+    width: 71%;
+    height: 4%;
+    position: absolute;
+    background-image: url('../img/lin1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: 100;
+}
